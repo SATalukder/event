@@ -10,8 +10,25 @@
 
 <body>
     <h1 onclick=" console.log('I am Clicked')">We start Dom of Events</h1>
-    <button title="This is tooltip" onclick="yellowColor()">Click Me</button>
+    <button title="This is tooltip" onclick="console.log(10)">Click Me</button>
     <button onclick="console.log(7)">another Button</button>
+    <br>
+    <br>
+    <!-- option 1: direct use -->
+    <button onclick="document.body.style.backgroundColor='red'">make red</button>
+    <!-- option 2: -->
+
+    <button onclick="makeYellow()">Make Yellow</button>
+
+    <!-- option 3: -->
+    <button id="make-blue">Make Blue</button>
+
+    <!-- option 3 another: -->
+    <button id="make-purple">Make purple</button>
+
+
+
+
 
     <script src="js/event.js"></script>
 </body>
