@@ -33,6 +33,11 @@ function makePink() {
     document.body.style.backgroundColor = 'pink';
 }
 
+//option 4: Final
+document.getElementById('make-green').addEventListener('click', function () {
+    document.body.style.backgroundColor = 'green';
+})
+
 
 
 
